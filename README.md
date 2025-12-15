@@ -119,7 +119,7 @@ You can run the project in Jupyter Notebook or Google Colab:
 ## 📦 Project Structure
 
 ```text
-├── mushroom.ipynb   # Main project notebook (contains all code and analysis)
-├── mushrooms.csv    # Dataset file (optional, if running locally)
-└── README.md        # Project documentation
+├── mushroom.ipynb
+├── mushrooms.csv  
+└── README.md
 ```
