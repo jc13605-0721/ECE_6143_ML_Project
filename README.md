@@ -89,7 +89,7 @@ Our models achieved exceptional performance on the test set:
 
 | Model | Accuracy | F1-Score | ROC-AUC |
 |-------|----------|----------|---------|
-| Logistic Regression | ~99.9% | ~0.99 | 1.00 |
+| **Logistic Regression** | **~99.9%** | **~0.99** | **1.00** |
 | **KNN** | **100%** | **1.00** | **1.00** |
 | **Decision Tree** | **100%** | **1.00** | **1.00** |
 | **Random Forest** | **100%** | **1.00** | **1.00** |
