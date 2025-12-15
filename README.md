@@ -31,7 +31,7 @@ We use the **Mushroom Classification** dataset sourced from Kaggle:
 
 ```python
 # Code snippet for loading data
-df = pd.read_csv("https://raw.githubusercontent.com/jc13605-0721/ECE_6143_Project/main/mushrooms.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/jc13605-0721/ECE_6143_ML_Project/main/mushrooms.csv")
 ```
 
 ---
