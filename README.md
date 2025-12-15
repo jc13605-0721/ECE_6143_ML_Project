@@ -1,5 +1,5 @@
 # ECE_6143_ML_Project
-# 🍄 Mushroom Toxicity Classification
+# Mushroom Toxicity Classification
 
 This is a machine learning project for **ECE 6143 Machine Learning**.  
 The goal is to predict whether a mushroom is **edible** or **poisonous** based on its physical features (e.g., odor, color, shape).
@@ -8,18 +8,18 @@ All features in this dataset are **categorical**, and we use **One-Hot Encoding*
 
 ---
 
-## 👥 Team Members
+## Team Members
 
 * **Jiangyue Chu    (Netid: jc13605)**
 * **Xinyu Wang      (Netid: xw3713)**
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 We use the **Mushroom Classification** dataset sourced from Kaggle:
 
-🔗 **Original Source:** [Kaggle - Mushroom Classification](https://www.kaggle.com/datasets/uciml/mushroom-classification?resource=download)
+**Original Source:** [Kaggle - Mushroom Classification](https://www.kaggle.com/datasets/uciml/mushroom-classification?resource=download)
 
 - **Samples:** 8,124  
 - **Features:** 22 categorical features (shape, surface, color, odor, etc.)  
@@ -36,7 +36,7 @@ df = pd.read_csv("https://raw.githubusercontent.com/jc13605-0721/ECE_6143_ML_Pro
 
 ---
 
-## 🧠 Project Workflow
+## Project Workflow
 
 ### 1. Data Processing
 - **Label Encoding:** Map target `e → 0` and `p → 1`.
@@ -60,7 +60,7 @@ For each model, we computed:
 
 ---
 
-## 🔍 Hyperparameter Tuning
+## Hyperparameter Tuning
 
 We used **GridSearchCV (5-fold cross-validation)** to find the best parameters for our tree-based models:
 
@@ -69,7 +69,7 @@ We used **GridSearchCV (5-fold cross-validation)** to find the best parameters f
 
 ---
 
-## 🌳 Model Interpretability & Insights
+## Model Interpretability & Insights
 
 One of the key goals of this project was to understand *why* a mushroom is poisonous.
 
@@ -83,7 +83,7 @@ We visualized the top 3 levels of the Decision Tree. The root node splits direct
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 Our models achieved exceptional performance on the test set:
 
@@ -98,7 +98,7 @@ Our models achieved exceptional performance on the test set:
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### 1. Prerequisites
 Ensure you have the following Python libraries installed:
@@ -116,7 +116,7 @@ You can run the project in Jupyter Notebook or Google Colab:
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```text
 ├── mushroom.ipynb
